@@ -26,7 +26,7 @@ function App() {
     <div className={darkMode ? 'dark-mode' : 'light-mode'}>
       <div className='calculator-box flex flex-col items-center justify-between p-6 rounded-3xl'>
         <div className="calculator-top flex flex-col justify-between items-end w-full h-60">
-          <i onClick={modeChange} class={darkMode ? "bi bi-moon" : "bi bi-brightness-high"}></i>
+          <i onClick={modeChange} class={darkMode ? "bi bi-brightness-high" : "bi bi-moon" }></i>
           <div className='solution flex flex-col items-end gap-2'>
             <h1 className='text-5xl'>{value}</h1>
           </div>
